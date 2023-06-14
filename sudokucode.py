@@ -1,19 +1,4 @@
-"""
 
-
-Easy level Sudoku solver
-
-Algorithm: Backtracking
-
-Procedure:
-    1. Pick an empty square
-    2. Try all number from 1 to 9 inclusively
-    3. Find 1 that works
-    4. Repeat the process
-    5. Backtrack
-
-Base on: TechWithTim's tutorial
-"""
 # Print out the full sudoku board
 def print_board(brd):
     for i in range(len(brd)):
